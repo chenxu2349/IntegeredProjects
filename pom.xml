@@ -13,6 +13,7 @@
         <module>NettyDemo</module>
         <module>MqDemo</module>
         <module>JucDemo</module>
+        <module>ExcelDemo</module>
     </modules>
 
     <dependencies>

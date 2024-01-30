@@ -7,11 +7,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ExcelDemo" />
         <module name="NettyDemo" />
         <module name="MqDemo" />
         <module name="JucDemo" />
         <module name="KryoDemo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ExcelDemo" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
