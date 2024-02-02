@@ -7,15 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="JavaSE" />
+        <module name="KryoDemo" />
         <module name="ExcelDemo" />
+        <module name="DesignPatterns" />
         <module name="NettyDemo" />
         <module name="MqDemo" />
         <module name="JucDemo" />
-        <module name="KryoDemo" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="ExcelDemo" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
