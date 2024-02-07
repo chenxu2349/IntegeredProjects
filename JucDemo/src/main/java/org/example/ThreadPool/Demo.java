@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * @author xuchen22
  */
-public class Main {
+public class Demo {
     public static void main(String[] args) {
         ThreadPoolExecutor threadPool = new ThreadPoolBuilder()
                 .corePoolSize(2)

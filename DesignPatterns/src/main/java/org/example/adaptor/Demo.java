@@ -3,7 +3,7 @@ package org.example.adaptor;
 /**
  * @author xuchen22
  */
-public class Main {
+public class Demo {
     public static void main(String[] args) {
 
         ISensitiveWordsFilter aSensitiveWordsFilterAdaptor = new ASensitiveWordsFilterAdaptor();

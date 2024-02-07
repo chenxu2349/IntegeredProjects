@@ -6,7 +6,7 @@ package org.example.singleton;
  * @Author chenxu
  * @Date 2023/11/7 10:02
  **/
-public class Main {
+public class Demo {
     public static void main(String[] args) {
         System.out.println(IdGenerator.getInstance().getId());
         System.out.println(IdGenerator.getInstance().getId());
