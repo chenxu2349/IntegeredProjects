@@ -30,9 +30,12 @@ public class Main {
             });
         }
 
+        // 这是一个动态修改线程池参数的案例
         ThreadPoolUtil.printStatus(threadPool, "改变前");
         threadPool.setCorePoolSize(5);
         threadPool.setMaximumPoolSize(11);
         ThreadPoolUtil.printStatus(threadPool, "改变后");
+
+        threadPool.shutdown();
     }
 }
