@@ -30,6 +30,11 @@ public class Demo {
                 System.out.println("Car 2 is an unknown type.");
                 break;
         }
+
+        // 遍历枚举类
+        for (DayOfWeek day : DayOfWeek.values()) {
+            System.out.println(day.getName() + day.getNumber());
+        }
     }
 }
 
