@@ -16,6 +16,7 @@
         <module>ExcelDemo</module>
         <module>DesignPatterns</module>
         <module>JavaSE</module>
+        <module>RedisDemo</module>
     </modules>
 
     <dependencies>
