@@ -12,10 +12,12 @@
         <module name="ExcelDemo" />
         <module name="DesignPatterns" />
         <module name="NettyDemo" />
-        <module name="MqDemo" />
         <module name="JucDemo" />
         <module name="RedisDemo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rocketmq-dashboard" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
