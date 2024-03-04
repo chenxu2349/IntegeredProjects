@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>NettyDemo</artifactId>
+    <artifactId>ShardingDemo</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -19,9 +19,10 @@
 
     <dependencies>
         <dependency>
-            <groupId>io.netty</groupId>
-            <artifactId>netty-all</artifactId>
-            <version>4.1.95.Final</version>
+            <groupId>org.apache.shardingsphere</groupId>
+            <artifactId>sharding-jdbc-spring-boot-starter</artifactId>
+            <version>4.0.0</version>
         </dependency>
     </dependencies>
+
 </project>
