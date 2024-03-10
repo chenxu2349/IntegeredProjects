@@ -1,4 +1,4 @@
-package org.example.adaptor;
+package org.example.structurePatterns.adaptor;
 
 import java.util.ArrayList;
 import java.util.List;

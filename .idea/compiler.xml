@@ -10,8 +10,8 @@
         <module name="JavaSE" />
         <module name="ShardingDemo" />
         <module name="KryoDemo" />
-        <module name="ExcelDemo" />
         <module name="DesignPatterns" />
+        <module name="ExcelDemo" />
         <module name="NettyDemo" />
         <module name="JucDemo" />
         <module name="RedisDemo" />

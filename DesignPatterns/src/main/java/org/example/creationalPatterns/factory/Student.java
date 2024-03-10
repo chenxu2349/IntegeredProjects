@@ -1,4 +1,4 @@
-package org.example.factory;
+package org.example.creationalPatterns.factory;
 
 /**
  * @ClassName Student

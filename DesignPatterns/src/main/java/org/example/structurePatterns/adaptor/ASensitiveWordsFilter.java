@@ -1,4 +1,4 @@
-package org.example.adaptor;
+package org.example.structurePatterns.adaptor;
 
 /**
  * @author xuchen22

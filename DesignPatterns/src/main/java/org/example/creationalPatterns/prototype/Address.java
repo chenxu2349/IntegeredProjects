@@ -1,4 +1,4 @@
-package org.example.prototype;
+package org.example.creationalPatterns.prototype;
 
 import java.io.Serializable;
 

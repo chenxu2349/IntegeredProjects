@@ -1,4 +1,4 @@
-package org.example.singleton;
+package org.example.creationalPatterns.singleton;
 
 /**
  * @author xuchen22
