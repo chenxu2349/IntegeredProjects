@@ -36,5 +36,10 @@ public class Demo {
             System.out.println(day.getName() + day.getNumber());
         }
     }
+
+    public class Sub {
+        public Sub(int i) {
+        }
+    }
 }
 

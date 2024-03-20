@@ -1,4 +1,4 @@
-package org.example.ThreadPool.task;
+package org.example.threadpool.task;
 
 import java.util.concurrent.Callable;
 

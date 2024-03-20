@@ -1,6 +1,6 @@
-package org.example.ThreadPool.task;
+package org.example.threadpool.task;
 
-import org.example.ThreadPool.ThreadPoolBuilder;
+import org.example.threadpool.ThreadPoolBuilder;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;

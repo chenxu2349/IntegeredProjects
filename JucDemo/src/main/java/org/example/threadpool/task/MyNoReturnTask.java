@@ -1,4 +1,4 @@
-package org.example.ThreadPool.task;
+package org.example.threadpool.task;
 
 public class MyNoReturnTask implements Runnable{
     private int param;
