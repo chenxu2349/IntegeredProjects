@@ -19,6 +19,10 @@ public class Demo {
             e.printStackTrace();
         }
 
+        String s = "abc";
+        String s1 = new String("abc");
+        System.out.println(s == s1);
+
     }
 
     public static String chooseStrategy(int fileSize) {
