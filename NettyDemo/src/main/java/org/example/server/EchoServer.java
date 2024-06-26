@@ -18,7 +18,7 @@ public class EchoServer {
         this.port = port;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         if (args.length != 1) {
             System.err.println("Usage: " + EchoServer.class.getSimpleName() + " <port>");
             return;
