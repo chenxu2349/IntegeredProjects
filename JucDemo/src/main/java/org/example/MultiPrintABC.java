@@ -16,7 +16,7 @@ public class MultiPrintABC {
 
     public static void main(String[] args) throws InterruptedException {
 //        printABC1();
-        printABC2();
+        printABC3();
     }
 
     public static void printABC1() throws InterruptedException {
@@ -145,5 +145,51 @@ public class MultiPrintABC {
         t2.start();
 //        Thread.sleep(1000);
         t3.start();
+    }
+
+    public static void printABC3() throws InterruptedException {
+
+
+        while (true) {
+            Thread thread0 = new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    try {
+                        Thread.sleep(1000);
+                    } catch (InterruptedException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            });
+            Thread threadA = new Thread(new Task(thread0, "A"));
+            Thread threadB = new Thread(new Task(threadA, "B"));
+            Thread threadC = new Thread(new Task(threadB, "C"));
+            thread0.start();
+            threadA.start();
+            threadB.start();
+            threadC.start();
+            Thread.sleep(3000);
+        }
+
+    }
+
+    static class Task implements Runnable {
+        private Thread thread;
+        private String string;
+        public Task(Thread thread, String string) {
+            this.thread = thread;
+            this.string = string;
+        }
+
+        @Override
+        public void run() {
+            try {
+                thread.join();
+                System.out.print(string + " ");
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }
     }
 }
